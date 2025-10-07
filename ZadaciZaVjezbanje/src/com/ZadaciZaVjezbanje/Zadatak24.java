@@ -51,10 +51,11 @@ public class Zadatak24 {
 
 		iznosSkolarine = (int)iznosSkolarine;
 		
-		System.out.printf("Po unesenim parametrima, ucenik treba da plati skolarinu u iznosu od %.2f.", iznosSkolarine);
+		System.out.printf("Po unesenim parametrima, ucenik treba da plati skolarinu u iznosu od %.0f.", iznosSkolarine);
 		
 		unos.close();
 	}
 
 }
+
 
