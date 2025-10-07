@@ -48,6 +48,8 @@ public class Zadatak24 {
 			else
 				iznosSkolarine = skolarina - (skolarina * 10)/100;
 		}
+
+		iznosSkolarine = (int)iznosSkolarine;
 		
 		System.out.printf("Po unesenim parametrima, ucenik treba da plati skolarinu u iznosu od %.2f.", iznosSkolarine);
 		
@@ -55,3 +57,4 @@ public class Zadatak24 {
 	}
 
 }
+
